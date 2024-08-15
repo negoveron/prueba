@@ -14,7 +14,7 @@ app = FastAPI()
 async def cantidad_filmaciones_mes(mes: str):
     try:
          
-        return {f"108 películas fueron estrenadas en el mes de {mes.capitalize()}"}
+        return {f"128 películas fueron estrenadas en el mes de {mes.capitalize()}"}
 
     except Exception as e:
         return {"error": str(e)}            
